@@ -1,0 +1,7 @@
+profile:
+  name: qodana.single:JavaTaintAnalysis.Local
+
+exclude:
+  - name: All
+    patterns:
+      - "file:**/*.sh"
